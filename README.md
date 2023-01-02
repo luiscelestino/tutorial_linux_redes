@@ -73,6 +73,12 @@ nslookup google.com
 ping www.google.com
 ```
 
+### telnet
+- Pode-se usar o telnet para verificar se uma porta esta aberta.
+```sh
+telnet www.gov.br 80
+```
+
 ### traceroute
 - Verificando a rota até o DNS do Google. <br>
   No Windows: ```tracert```.
