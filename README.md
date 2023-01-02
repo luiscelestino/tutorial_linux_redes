@@ -61,3 +61,10 @@ ip route
 ```sh
 nslookup google.com
 ```
+
+### ping
+- Verifica se via protocolo ICMP se consegue chegar a um determinado endereço. <br>
+  Também, se obtém o IP resolvido e o tempo para um pacote ir para e voltar deste endereço.
+```sh
+ping www.google.com
+```
