@@ -24,6 +24,13 @@ cat /etc/resolv.conf
 cat /etc/hosts
 ```
 
+### Para saber as portas usadas por cada serviço
+- Verificar arquivo /etc/services.
+```sh
+cat /etc/services
+```
+
+
 ## Comandos
 
 ### dig
