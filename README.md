@@ -8,8 +8,16 @@ https://jodies.de/ipcalc?host=10.10.3.6&mask1=28&mask2=
 ## Arquivos
 
 ### Configuraçao dos servidores de DNS utilizados
+- Para configurar, pode-se editar o arquivo. <br>
+  No Windows, executar ```ipconfig /all```.
 ```sh
 cat /etc/resolv.conf
+```
+
+### Para forçar um IP sem usar o DNS (pode ser usado para testes)
+- Adicionar uma nova linha no arquivo /etc/hosts.
+```sh
+cat /etc/hosts
 ```
 
 ## Comandos
