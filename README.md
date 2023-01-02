@@ -8,6 +8,13 @@ https://jodies.de/ipcalc?host=10.10.3.6&mask1=28&mask2=
 
 ## Comandos
 
+### dig
+- Além de resolver um nome, diz o endereço IP do servidor de DNS (ver campo SERVER).
+```sh
+dig google.com
+```
+
+
 ### ifconfig
 - Antigo comando que verifica detalhes de IP e endereço de broadcast (normalmente, o ultimo endereço na rede). <br>
   Interfaces padroes: eth0, en0.
