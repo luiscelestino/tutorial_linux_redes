@@ -68,3 +68,16 @@ nslookup google.com
 ```sh
 ping www.google.com
 ```
+
+### traceroute
+- Verificando a rota até o DNS do Google. <br>
+  No Windows: ```tracert```.
+```sh
+traceroute 8.8.8.8
+```
+
+- Verificando a rota até o DNS do Google, usando o protocolo ICMP.
+```sh
+traceroute -I 8.8.8.8
+```
+
