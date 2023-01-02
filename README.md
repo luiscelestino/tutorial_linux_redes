@@ -14,6 +14,10 @@ https://jodies.de/ipcalc?host=10.10.3.6&mask1=28&mask2=
 dig google.com
 ```
 
+- Resolvendo um nome, dizendo o IP de um servidor de DNS especifico (8.8.8.8 - DNS do Google).
+```sh
+dig @8.8.8.8 google.com
+```
 
 ### ifconfig
 - Antigo comando que verifica detalhes de IP e endereço de broadcast (normalmente, o ultimo endereço na rede). <br>
