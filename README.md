@@ -13,7 +13,7 @@ ip addr
   O roteador é incado pelo valor default. <br>
   No MacOS, é necessario instalar o iproute2mac (brew install iproute2mac).
 ```sh
-ip addr
+ip route
 ```
 
 
