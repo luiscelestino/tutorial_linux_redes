@@ -1,5 +1,12 @@
 # Tutorial linux redes
 
+## ifconfig
+- Antigo comando que verifica detalhes de IP e endereço de broadcast (normalmente, o ultimo endereço na rede). <br>
+  Interfaces padroes: eth0, en0.
+```sh
+ip addr
+```
+
 ## ip addr
 - Novo comando que verifica detalhes de IP e endereço de broadcast (normalmente, o ultimo endereço na rede). <br>
   Interfaces padroes: eth0, en0. <br>
