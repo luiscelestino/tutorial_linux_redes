@@ -33,6 +33,17 @@ cat /etc/services
 
 ## Comandos
 
+### curl
+- Conecta e traz o conteudo de um site.
+```sh
+curl https://www.google.com
+```
+
+- Conecta e traz o cabeçalho (header) do site, bem como o codigo HTTP do retorno da requisiçao.
+```sh
+curl -I https://www.google.com
+```
+
 ### dig
 - Além de resolver um nome, diz o endereço IP do servidor de DNS (ver campo SERVER).
 ```sh
