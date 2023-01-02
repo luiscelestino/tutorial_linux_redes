@@ -5,6 +5,12 @@
 ### Calculadora de IPs
 https://jodies.de/ipcalc?host=10.10.3.6&mask1=28&mask2=
 
+## Arquivos
+
+### Configuraçao dos servidores de DNS utilizados
+```sh
+cat /etc/resolv.conf
+```
 
 ## Comandos
 
