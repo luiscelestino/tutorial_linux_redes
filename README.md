@@ -1,13 +1,21 @@
 # Tutorial linux redes
 
-## ifconfig
+## Links
+
+### Calculadora de IPs
+https://jodies.de/ipcalc?host=10.10.3.6&mask1=28&mask2=
+
+
+## Comandos
+
+### ifconfig
 - Antigo comando que verifica detalhes de IP e endereço de broadcast (normalmente, o ultimo endereço na rede). <br>
   Interfaces padroes: eth0, en0.
 ```sh
 ip addr
 ```
 
-## ip addr
+### ip addr
 - Novo comando que verifica detalhes de IP e endereço de broadcast (normalmente, o ultimo endereço na rede). <br>
   Interfaces padroes: eth0, en0. <br>
   No MacOS, é necessario instalar o iproute2mac (brew install iproute2mac).
@@ -15,7 +23,7 @@ ip addr
 ip addr
 ```
 
-## ip route
+### ip route
 - Comando para ver qual é o endereço do roteador (gateway). <br>
   O roteador é incado pelo valor default. <br>
   No MacOS, é necessario instalar o iproute2mac (brew install iproute2mac).
@@ -23,10 +31,8 @@ ip addr
 ip route
 ```
 
-
-## nslookup
+### nslookup
 - Verifica o endereço IP de um nome na internet
 ```sh
 nslookup google.com
 ```
-
