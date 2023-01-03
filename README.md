@@ -101,6 +101,14 @@ nslookup google.com
 ping www.google.com
 ```
 
+### tcpdump
+- Para capturar pacotes na maquina. <br>
+  Pode-se filtrar os pacotes por protocolo, host e porta. <br>
+  Detalhes em: https://opensource.com/article/18/10/introduction-tcpdump
+```sh
+sudo tcpdump port 80 -v -n
+```
+
 ### telnet
 - Pode-se usar o telnet para verificar se uma porta esta aberta. <br>
   Para sair do telnet no MacOS, teclado frances canadense : CTRL + Ç. <br>
