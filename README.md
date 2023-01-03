@@ -102,7 +102,10 @@ ping www.google.com
 ```
 
 ### telnet
-- Pode-se usar o telnet para verificar se uma porta esta aberta.
+- Pode-se usar o telnet para verificar se uma porta esta aberta. <br>
+  Para sair do telnet no MacOS, teclado frances canadense : CTRL + Ç. <br>
+  Na maioria dos teclados: CTRL + ]. <br>
+  Apos, usar: quit.
 ```sh
 telnet www.gov.br 80
 ```
