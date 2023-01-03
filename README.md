@@ -60,6 +60,11 @@ dig google.com
 dig @8.8.8.8 google.com
 ```
 
+- Resolver um nome em endereço IP v6.
+```sh
+dig www.google.com AAAA
+```
+
 ### ifconfig
 - Antigo comando que verifica detalhes de IP e endereço de broadcast (normalmente, o ultimo endereço na rede). <br>
   Interfaces padroes: eth0, en0.
