@@ -44,6 +44,11 @@ curl https://www.google.com
 curl -I https://www.google.com
 ```
 
+- Para saber op IP publico da maquina
+```sh
+curl ifconfig.me
+```
+
 ### dig
 - Além de resolver um nome, diz o endereço IP do servidor de DNS (ver campo SERVER).
 ```sh
